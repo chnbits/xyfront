@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><!--[if IE]><link rel="icon" href="favicon.ico"><![endif]--><title>首页</title><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/starideas/xyfront/element-theme/0CBF92.css><script src=https://cdn.staticfile.org/vue/2.6.10/vue.min.js></script><script src=https://cdn.staticfile.org/vue-router/3.1.3/vue-router.min.js></script><script src=https://cdn.staticfile.org/vuex/3.1.1/vuex.min.js></script><script src=https://cdn.jsdelivr.net/npm/element-ui@2.13.2/lib/index.js></script><script src=https://cdn.staticfile.org/vue-i18n/8.14.1/vue-i18n.min.js></script><script src=https://cdn.staticfile.org/tinymce/5.0.16/tinymce.min.js></script><script src=https://cdn.jsdelivr.net/npm/vue-amap/dist/index.js></script><script src=//res2.wx.qq.com/open/js/jweixin-1.6.0.js></script><script src=https://cdn.staticfile.org/vConsole/3.3.4/vconsole.min.js></script><script>// 禁用ios缩放
+        window.onload=function () {
+            document.addEventListener('touchstart',function (event) {
+              if(event.touches.length>1){
+                event.preventDefault();
+              }
+            });
+            var lastTouchEnd=0;
+            document.addEventListener('touchend',function (event) {
+              var now=(new Date()).getTime();
+              if(now-lastTouchEnd<=300){
+                event.preventDefault();
+              }
+              lastTouchEnd=now;
+            },false);
+            document.addEventListener('gesturestart', function (event) {
+              event.preventDefault();
+            });
+        }</script><style type=text/css media=screen>#__vconsole .vc-panel {
+        min-height: 50%;
+      }</style><link href=css/chunk-32e61b8a.f0904dd2.css rel=prefetch><link href=css/chunk-3a60e395.8d9cbe13.css rel=prefetch><link href=css/chunk-78b7dabc.bab52d93.css rel=prefetch><link href=css/chunk-9962f726.f0904dd2.css rel=prefetch><link href=js/chunk-2d0c9b0b.8735d263.js rel=prefetch><link href=js/chunk-2d217526.a3706887.js rel=prefetch><link href=js/chunk-32e61b8a.1268419f.js rel=prefetch><link href=js/chunk-3a60e395.14396ac0.js rel=prefetch><link href=js/chunk-78b7dabc.849137dc.js rel=prefetch><link href=js/chunk-9962f726.ececd9ae.js rel=prefetch><link href=css/app.b2328a12.css rel=preload as=style><link href=css/chunk-vendors.620ca38e.css rel=preload as=style><link href=js/app.557d7053.js rel=preload as=script><link href=js/chunk-vendors.f420d4ab.js rel=preload as=script><link href=css/chunk-vendors.620ca38e.css rel=stylesheet><link href=css/app.b2328a12.css rel=stylesheet><link rel=icon type=image/png sizes=32x32 href=favicon.ico><link rel=icon type=image/png sizes=16x16 href=favicon.ico><link rel=manifest href=/manifest.json><meta name=theme-color content=#f1f1f1><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=default><meta name=apple-mobile-web-app-title content=XYCloud><link rel=apple-touch-icon href=/ogo.png><link rel=mask-icon href=favicon.ico color=#f1f1f1><meta name=msapplication-TileImage content=logo.png><meta name=msapplication-TileColor content=#ffffff></head><body><noscript><strong>We're sorry but we doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=js/chunk-vendors.f420d4ab.js></script><script src=js/app.557d7053.js></script></body></html>
