@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist//manifest.json"
   },
   {
-    "revision": "f6426c2e30314a7e69e2",
+    "revision": "03f28b88543eea0159d5",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/css/app.eacd1da0.css"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/css/chunk-082be7f4.363b6659.css"
   },
   {
-    "revision": "28f4cd19e8b56bc6c0fb",
+    "revision": "fc5e110ac353b7e98b75",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/css/chunk-10cee188.3fa598b7.css"
   },
   {
@@ -104,20 +104,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/img/fontello.9354499c.svg"
   },
   {
-    "revision": "79f6045a8e71f9cf887aca366ac83333",
+    "revision": "578f94b9666e53def0e9c0734b1773bf",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/index.html"
   },
   {
-    "revision": "f6426c2e30314a7e69e2",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/js/app.e3afa4aa.js"
+    "revision": "03f28b88543eea0159d5",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/js/app.d76299b0.js"
   },
   {
     "revision": "6f856cdbd1f1b95cc054",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/js/chunk-082be7f4.30cf4843.js"
   },
   {
-    "revision": "28f4cd19e8b56bc6c0fb",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/js/chunk-10cee188.5f811774.js"
+    "revision": "fc5e110ac353b7e98b75",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/js/chunk-10cee188.99c74aa5.js"
   },
   {
     "revision": "31a97b17fc72bba7a0c5",
