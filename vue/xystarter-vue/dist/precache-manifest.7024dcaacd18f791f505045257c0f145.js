@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist//manifest.json"
   },
   {
-    "revision": "55b1dbad5861d0e63fd1",
+    "revision": "8ecb9f495d495fd90a95",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/css/app.033835a0.css"
   },
   {
@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/css/chunk-e75a2472.b901a358.css"
   },
   {
-    "revision": "79f4f9a31c652b8316d7",
+    "revision": "f6208b159c8ba50ed0d4",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/css/chunk-vendors.6936b8e8.css"
   },
   {
@@ -108,12 +108,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/img/fontello.9354499c.svg"
   },
   {
-    "revision": "862c99b6c2772ab4dc8114fe77b86d23",
+    "revision": "b661748e7b783a036c2ba9430509038e",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/index.html"
   },
   {
-    "revision": "55b1dbad5861d0e63fd1",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/js/app.7523aaae.js"
+    "revision": "8ecb9f495d495fd90a95",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/js/app.e08b9def.js"
   },
   {
     "revision": "14dccebe5967dcee3c0e",
@@ -208,8 +208,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/js/chunk-e75a2472.017de134.js"
   },
   {
-    "revision": "79f4f9a31c652b8316d7",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/js/chunk-vendors.bb5f1f8c.js"
+    "revision": "f6208b159c8ba50ed0d4",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront@latest/vue/xystarter-vue/dist/js/chunk-vendors.31d71b85.js"
   },
   {
     "revision": "61e84baf6e0623e3e0a4106612ce67f3",
