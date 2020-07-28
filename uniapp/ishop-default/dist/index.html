@@ -1,27 +1,43 @@
-<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-title content=XYShop><meta name=apple-mobile-web-app-status-bar-style content=default><link rel=apple-touch-icon type=image/x-icon href=logo.png><link rel=manifest href=/manifest.json><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/static/index.css><script>if (navigator.serviceWorker) {
-			    navigator.serviceWorker.register('/service-worker.js').then(function(registration){
-					console.log('service worker 注册成功');
-			    }).catch(function(err){
-			        console.log('servcie worker 注册失败');
-			    });
-			}</script><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><title>XYShop</title><script>document.addEventListener('DOMContentLoaded', function() {
-                document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
-            })</script><script>// 禁用ios缩放
-		    window.onload=function () {
-		        document.addEventListener('touchstart',function (event) {
-		          if(event.touches.length>1){
-		            event.preventDefault();
-		          }
-		        });
-		        var lastTouchEnd=0;
-		        document.addEventListener('touchend',function (event) {
-		          var now=(new Date()).getTime();
-		          if(now-lastTouchEnd<=300){
-		            event.preventDefault();
-		          }
-		          lastTouchEnd=now;
-		        },false);
-		        document.addEventListener('gesturestart', function (event) {
-		          event.preventDefault();
-		        });
-		    }</script><script src=//res2.wx.qq.com/open/js/jweixin-1.6.0.js></script><script src=//cdn.bootcss.com/vConsole/3.3.4/vconsole.min.js></script></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div id=app></div><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/static/js/chunk-vendors.b4070b34.js></script><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/static/js/index.046ffbae.js></script></body></html>
+<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-title content=XYCloud><meta name=apple-mobile-web-app-status-bar-style content=default><link rel=apple-touch-icon type=image/x-icon href=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/logo.png><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/static/index.css><link rel=manifest href=/manifest.json><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,viewport-fit=cover,maximum-scale=1,minimum-scale=1"><title>XYShop</title><script>if (navigator.serviceWorker) {
+                navigator.serviceWorker.register('/service-worker.js').then(function(registration){
+                    console.log('service worker 注册成功');
+                }).catch(function(err){
+                    console.log('servcie worker 注册失败');
+                });
+            }</script><script>document.addEventListener('DOMContentLoaded', function() {
+                let innerWidth = Math.min(window.innerWidth, 375);
+                document.documentElement.style.fontSize = innerWidth / 20 + 'px';
+            });</script><script>// 大屏幕自动跳转
+            function redirectToLaunch() {
+                if (document.documentElement.clientWidth >= 1024) {
+                    location.href = '/pcguide';
+                }
+            };
+            redirectToLaunch();
+            var timer = null;
+            window.addEventListener('resize', function() {
+                timer && clearTimeout(timer);
+                timer = setTimeout(function() {
+                    redirectToLaunch();
+                }, 500);
+            });
+
+            // 禁用ios缩放
+            window.onload=function () {
+                document.addEventListener('touchstart',function (event) {
+                  if(event.touches.length>1){
+                    event.preventDefault();
+                  }
+                });
+                var lastTouchEnd=0;
+                document.addEventListener('touchend',function (event) {
+                  var now=(new Date()).getTime();
+                  if(now-lastTouchEnd<=300){
+                    event.preventDefault();
+                  }
+                  lastTouchEnd=now;
+                },false);
+                document.addEventListener('gesturestart', function (event) {
+                  event.preventDefault();
+                });
+            }</script><script src=https://res2.wx.qq.com/open/js/jweixin-1.6.0.js></script><script src=https://cdn.bootcss.com/vConsole/3.3.4/vconsole.min.js></script></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div id=app></div><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/static/js/chunk-vendors.3bc75536.js></script><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/static/js/index.89fa1e33.js></script></body></html>
