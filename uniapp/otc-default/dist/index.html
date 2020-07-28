@@ -8,8 +8,8 @@
                 document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
             })</script><script>// 大屏幕自动跳转
             function redirectToLaunch() {
-                if (document.documentElement.clientWidth >= 1024) {
-                    location.href = '/pcguide';
+                if (document.documentElement.clientWidth >= 1024 && window.location.host != "localhost") {
+                    location.href = '/pcguide.html';
                 }
             };
             redirectToLaunch();
@@ -39,4 +39,4 @@
                 document.addEventListener('gesturestart', function (event) {
                   event.preventDefault();
                 });
-            }</script><script src=https://res2.wx.qq.com/open/js/jweixin-1.6.0.js></script><script src=https://cdn.bootcss.com/vConsole/3.3.4/vconsole.min.js></script></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div id=app></div><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/otc-default/dist/static/js/chunk-vendors.6f784f4e.js></script><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/otc-default/dist/static/js/index.c4116a06.js></script></body></html>
+            }</script><script src=https://res2.wx.qq.com/open/js/jweixin-1.6.0.js></script><script src=https://cdn.bootcss.com/vConsole/3.3.4/vconsole.min.js></script></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div id=app></div><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/otc-default/dist/static/js/chunk-vendors.e2471da7.js></script><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/otc-default/dist/static/js/index.f312b118.js></script></body></html>
