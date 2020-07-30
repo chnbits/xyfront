@@ -1,15 +1,15 @@
-<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-title content=XYCloud><meta name=apple-mobile-web-app-status-bar-style content=default><link rel=apple-touch-icon type=image/x-icon href=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/logo.png><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/static/index.css><link rel=manifest href=/manifest.json><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,viewport-fit=cover,maximum-scale=1,minimum-scale=1"><title>XYShop</title><script>if (navigator.serviceWorker) {
+<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-title content=XYCloud><meta name=apple-mobile-web-app-status-bar-style content=black-translucent><link rel=apple-touch-icon type=image/x-icon href=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/logo.png><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/static/index.css><link rel=manifest href=/manifest.json><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,viewport-fit=cover,maximum-scale=1,minimum-scale=1"><title>XYShop</title><script>if (navigator.serviceWorker) {
                 navigator.serviceWorker.register('/service-worker.js').then(function(registration){
-                    console.log('service worker 注册成功');
+                    console.log('service worker success');
                 }).catch(function(err){
-                    console.log('servcie worker 注册失败');
+                    console.log('servcie worker fail');
                 });
             }</script><script>document.addEventListener('DOMContentLoaded', function() {
                 let innerWidth = Math.min(window.innerWidth, 375);
                 document.documentElement.style.fontSize = innerWidth / 20 + 'px';
-            });</script><script>// 大屏幕自动跳转
+            });</script><script>// big screen jump
             function redirectToLaunch() {
-                if (document.documentElement.clientWidth >= 1024) {
+                if (document.documentElement.clientWidth >= 1024 && window.location.host != "localhost") {
                     location.href = '/pcguide';
                 }
             };
@@ -22,7 +22,7 @@
                 }, 500);
             });
 
-            // 禁用ios缩放
+            // forbid ios zoom
             window.onload=function () {
                 document.addEventListener('touchstart',function (event) {
                   if(event.touches.length>1){
@@ -40,4 +40,4 @@
                 document.addEventListener('gesturestart', function (event) {
                   event.preventDefault();
                 });
-            }</script><script src=https://res2.wx.qq.com/open/js/jweixin-1.6.0.js></script><script src=https://cdn.bootcss.com/vConsole/3.3.4/vconsole.min.js></script></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div id=app></div><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/static/js/chunk-vendors.40ae7591.js></script><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/static/js/index.2f7489d3.js></script></body></html>
+            }</script><script src=https://res2.wx.qq.com/open/js/jweixin-1.6.0.js></script><script src=https://cdn.bootcss.com/vConsole/3.3.4/vconsole.min.js></script></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div id=app></div><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/static/js/chunk-vendors.33e3bc42.js></script><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/ishop-default/dist/static/js/index.8e6b5faf.js></script></body></html>
