@@ -4,12 +4,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/xystarter-vue/dist//manifest.json"
   },
   {
-    "revision": "dcb011270024a27023ba",
+    "revision": "2716902df65817f4f9db",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/xystarter-vue/dist/css/app.1e8846be.css"
-  },
-  {
-    "revision": "08a550167e160592380b",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/xystarter-vue/dist/css/chunk-172d6090.3767d34c.css"
   },
   {
     "revision": "131fefcbc3352be75056",
@@ -22,6 +18,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5dabeffc5d0b468aff8f",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/xystarter-vue/dist/css/chunk-4a843b88.717f23bd.css"
+  },
+  {
+    "revision": "380534aeb4dbe7fd4e51",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/xystarter-vue/dist/css/chunk-5b9dd125.b0f484df.css"
   },
   {
     "revision": "e75d7453711dda82d925",
@@ -52,20 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/xystarter-vue/dist/img/fontello.9354499c.svg"
   },
   {
-    "revision": "2a3e12d4469c50a2ee59df282c8c013f",
+    "revision": "0a33076db2d237955d0e92e9abb2798f",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/xystarter-vue/dist/index.html"
   },
   {
-    "revision": "dcb011270024a27023ba",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/xystarter-vue/dist/js/app.0dd2dd99.js"
+    "revision": "2716902df65817f4f9db",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/xystarter-vue/dist/js/app.eb406dba.js"
   },
   {
     "revision": "2387ed7465e2d4a24c75",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/xystarter-vue/dist/js/chunk-0d88b038.2e64e9eb.js"
-  },
-  {
-    "revision": "08a550167e160592380b",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/xystarter-vue/dist/js/chunk-172d6090.cc8adc0e.js"
   },
   {
     "revision": "310396ff1815e411e0b3",
@@ -118,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7c30ac742e5722163f46",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/xystarter-vue/dist/js/chunk-570e346d.67f5106e.js"
+  },
+  {
+    "revision": "380534aeb4dbe7fd4e51",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/xystarter-vue/dist/js/chunk-5b9dd125.3bea90d7.js"
   },
   {
     "revision": "5a6021ae063249b2105f",
