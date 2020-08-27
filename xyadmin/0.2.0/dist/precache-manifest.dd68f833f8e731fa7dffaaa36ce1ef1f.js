@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.0/dist/audio/tab.wav"
   },
   {
-    "revision": "1346b2cabe4c1e6f143e",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.0/dist/css/app.62b87e53.css"
+    "revision": "2fac495e5235664e43a0",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.0/dist/css/app.cb6f5c91.css"
   },
   {
     "revision": "fbf1c7de3a323dac598c",
@@ -72,12 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.0/dist/img/qun_qq.a49e406d.png"
   },
   {
-    "revision": "7eba2feeb5da99317a3dc725067c252c",
+    "revision": "4e8343df912f2aa41d1787504d620814",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.0/dist/index.html"
   },
   {
-    "revision": "1346b2cabe4c1e6f143e",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.0/dist/js/app.2541bb0c.js"
+    "revision": "2fac495e5235664e43a0",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.0/dist/js/app.ec584fad.js"
   },
   {
     "revision": "fbf1c7de3a323dac598c",
