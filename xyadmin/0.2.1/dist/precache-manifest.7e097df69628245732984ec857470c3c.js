@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/audio/tab.wav"
   },
   {
-    "revision": "e3a5ed40f804e7e10c3c",
+    "revision": "7dfe6815ee2169afa61d",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/css/app.cb6f5c91.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/css/manifest.17e39dbc.css"
   },
   {
-    "revision": "3e492966d87883cfd866",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/css/vendor.77d10ac0.css"
+    "revision": "93eb8fa1ef55a770a216",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/css/vendor.2231e9d8.css"
   },
   {
     "revision": "068ca2b316db98037bebdd1e4f1b9459",
@@ -72,20 +72,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/img/qun_qq.a49e406d.png"
   },
   {
-    "revision": "9f2da72a5bac3b944991de36dccdd607",
+    "revision": "2b2ab0b50eeb36399920fc6eef4b580d",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/index.html"
   },
   {
-    "revision": "e3a5ed40f804e7e10c3c",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/app.8bbfa414.js"
+    "revision": "7dfe6815ee2169afa61d",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/app.ae65c4fa.js"
   },
   {
     "revision": "14e4601b20092ac00b4d",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/manifest.8f8f34a4.js"
   },
   {
-    "revision": "3e492966d87883cfd866",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/vendor.b8560f12.js"
+    "revision": "93eb8fa1ef55a770a216",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/vendor.fb0877e8.js"
   },
   {
     "revision": "61e84baf6e0623e3e0a4106612ce67f3",
