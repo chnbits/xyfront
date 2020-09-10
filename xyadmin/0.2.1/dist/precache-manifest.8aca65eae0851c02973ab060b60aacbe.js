@@ -24,12 +24,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/audio/tab.wav"
   },
   {
-    "revision": "3f02dfdf30ca5f7ab59c",
+    "revision": "5b38cef5c1441a13a9f3",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/css/app.cb6f5c91.css"
   },
   {
-    "revision": "834028468500181b5ab4",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/css/manifest.67f93acb.css"
+    "revision": "fed4ddd3aec6c25e8aa2",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/css/manifest.a217760e.css"
   },
   {
     "revision": "93eb8fa1ef55a770a216",
@@ -72,16 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/img/qun_qq.a49e406d.png"
   },
   {
-    "revision": "7ab3fd02721c11245db5290553a7f021",
+    "revision": "4ce8b3097db031d91f6a1352136a6748",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/index.html"
   },
   {
-    "revision": "3f02dfdf30ca5f7ab59c",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/app.b3e7cf06.js"
+    "revision": "5b38cef5c1441a13a9f3",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/app.ff8d93d9.js"
   },
   {
-    "revision": "834028468500181b5ab4",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/manifest.d3c77daf.js"
+    "revision": "fed4ddd3aec6c25e8aa2",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/manifest.65082bcd.js"
   },
   {
     "revision": "93eb8fa1ef55a770a216",
