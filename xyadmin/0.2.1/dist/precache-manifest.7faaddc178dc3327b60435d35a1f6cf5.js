@@ -24,15 +24,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/audio/tab.wav"
   },
   {
-    "revision": "5b38cef5c1441a13a9f3",
+    "revision": "481684a7549c9fc998e9",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/css/app.cb6f5c91.css"
   },
   {
-    "revision": "fed4ddd3aec6c25e8aa2",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/css/manifest.a217760e.css"
+    "revision": "2c55498e067466b3d61e",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/css/manifest.b04aef1e.css"
   },
   {
-    "revision": "93eb8fa1ef55a770a216",
+    "revision": "2da875f504ea531cfff2",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/css/vendor.2231e9d8.css"
   },
   {
@@ -72,20 +72,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/img/qun_qq.a49e406d.png"
   },
   {
-    "revision": "4ce8b3097db031d91f6a1352136a6748",
+    "revision": "8382d38d3e84baa868b020b94163b2fe",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/index.html"
   },
   {
-    "revision": "5b38cef5c1441a13a9f3",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/app.ff8d93d9.js"
+    "revision": "481684a7549c9fc998e9",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/app.a395e931.js"
   },
   {
-    "revision": "fed4ddd3aec6c25e8aa2",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/manifest.65082bcd.js"
+    "revision": "2c55498e067466b3d61e",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/manifest.65b1e437.js"
   },
   {
-    "revision": "93eb8fa1ef55a770a216",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/vendor.fb0877e8.js"
+    "revision": "2da875f504ea531cfff2",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/xyadmin/0.2.1/dist/js/vendor.cc63f22a.js"
   },
   {
     "revision": "61e84baf6e0623e3e0a4106612ce67f3",
