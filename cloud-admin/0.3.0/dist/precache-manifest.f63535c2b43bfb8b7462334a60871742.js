@@ -24,15 +24,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/audio/tab.wav"
   },
   {
-    "revision": "a8a3ab7c83a2429d812f",
+    "revision": "4a8d75365c7936bacc63",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/css/app.7d2c872a.css"
   },
   {
-    "revision": "21aef47f924152e8a123",
+    "revision": "10882bf1b79a5b77fa7b",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/css/manifest.c456c4f6.css"
   },
   {
-    "revision": "b16693b67283ac7cfece",
+    "revision": "b4d0e32516e2a1c900d4",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/css/vendor.eb0da37f.css"
   },
   {
@@ -72,20 +72,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/img/qun_qq.a49e406d.png"
   },
   {
-    "revision": "af63670e2e9b81606f3a4204096d9369",
+    "revision": "0a02920e483c80c2064166806a242e5e",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/index.html"
   },
   {
-    "revision": "a8a3ab7c83a2429d812f",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/app.7b9286a4.js"
+    "revision": "4a8d75365c7936bacc63",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/app.9f4c99b8.js"
   },
   {
-    "revision": "21aef47f924152e8a123",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/manifest.4b2cb2e3.js"
+    "revision": "10882bf1b79a5b77fa7b",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/manifest.b743dbbd.js"
   },
   {
-    "revision": "b16693b67283ac7cfece",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/vendor.3edb0174.js"
+    "revision": "b4d0e32516e2a1c900d4",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/vendor.c69b0bfa.js"
   },
   {
     "revision": "eb0e6ac50f334d95e0e524dd0a81dd4b",
