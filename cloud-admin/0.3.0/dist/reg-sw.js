@@ -1,4 +1,4 @@
-importScripts("https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/precache-manifest.c79cf3f870975150514b826c6a27d6b0.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/precache-manifest.825b3d92176493be7ffb6341dc877d48.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 /* eslint-disable no-console */
 

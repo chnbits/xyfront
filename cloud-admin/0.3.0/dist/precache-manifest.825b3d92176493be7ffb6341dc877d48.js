@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/audio/tab.wav"
   },
   {
-    "revision": "c044a43e9d6b95374f7e",
+    "revision": "c0d9fa8f42e38eaa8b12",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/css/app.7d2c872a.css"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/css/manifest.c456c4f6.css"
   },
   {
-    "revision": "b4d0e32516e2a1c900d4",
+    "revision": "7c4bfff1e5d106ef7b68",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/css/vendor.eb0da37f.css"
   },
   {
@@ -72,20 +72,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/img/qun_qq.a49e406d.png"
   },
   {
-    "revision": "d93caf6902184611219a96d6a648d05a",
+    "revision": "86a95d6b24e2b873d9f3a2554876285f",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/index.html"
   },
   {
-    "revision": "c044a43e9d6b95374f7e",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/app.d6176869.js"
+    "revision": "c0d9fa8f42e38eaa8b12",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/app.f9b502cc.js"
   },
   {
     "revision": "275639a68f7e9dfc28a9",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/manifest.286a1029.js"
   },
   {
-    "revision": "b4d0e32516e2a1c900d4",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/vendor.c69b0bfa.js"
+    "revision": "7c4bfff1e5d106ef7b68",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/vendor.350a1598.js"
   },
   {
     "revision": "eb0e6ac50f334d95e0e524dd0a81dd4b",
