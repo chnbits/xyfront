@@ -24,11 +24,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/audio/tab.wav"
   },
   {
-    "revision": "4a8d75365c7936bacc63",
+    "revision": "c044a43e9d6b95374f7e",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/css/app.7d2c872a.css"
   },
   {
-    "revision": "10882bf1b79a5b77fa7b",
+    "revision": "275639a68f7e9dfc28a9",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/css/manifest.c456c4f6.css"
   },
   {
@@ -72,16 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/img/qun_qq.a49e406d.png"
   },
   {
-    "revision": "0a02920e483c80c2064166806a242e5e",
+    "revision": "d93caf6902184611219a96d6a648d05a",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/index.html"
   },
   {
-    "revision": "4a8d75365c7936bacc63",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/app.9f4c99b8.js"
+    "revision": "c044a43e9d6b95374f7e",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/app.d6176869.js"
   },
   {
-    "revision": "10882bf1b79a5b77fa7b",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/manifest.b743dbbd.js"
+    "revision": "275639a68f7e9dfc28a9",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/js/manifest.286a1029.js"
   },
   {
     "revision": "b4d0e32516e2a1c900d4",
