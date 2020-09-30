@@ -72,7 +72,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/img/qun_qq.a49e406d.png"
   },
   {
-    "revision": "c34308ed81527b05160192cec07f6eb5",
+    "revision": "1b8bd92272db0e658b4477a62c46d2d1",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/cloud-admin/0.3.0/dist/index.html"
   },
   {
