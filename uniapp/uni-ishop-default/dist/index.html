@@ -4,23 +4,22 @@
                 }).catch(function(err){
                     console.log('servcie worker fail');
                 });
-            }</script><script>document.addEventListener('DOMContentLoaded', function() {
-                let innerWidth = Math.min(window.innerWidth, 375);
-                document.documentElement.style.fontSize = innerWidth / 20 + 'px';
-            });</script><script>// big screen jump
-            function redirectToLaunch() {
-                if (document.documentElement.clientWidth >= 1024 && window.location.host != "localhost") {
-                    location.href = '/pcguide';
-                }
-            };
-            redirectToLaunch();
-            var timer = null;
-            window.addEventListener('resize', function() {
-                timer && clearTimeout(timer);
-                timer = setTimeout(function() {
-                    redirectToLaunch();
-                }, 500);
-            });
+            }</script><script>// big screen jump
+            if (window.location.host.split(":")[0] != "127.0.0.1" && window.location.host.split(":")[0] != "localhost" ){
+                function redirectToLaunch() {
+                    if (document.documentElement.clientWidth >= 1024) {
+                        location.href = '/pcguide.html';
+                    }
+                };
+                redirectToLaunch();
+                var timer = null;
+                window.addEventListener('resize', function() {
+                    timer && clearTimeout(timer);
+                    timer = setTimeout(function() {
+                        redirectToLaunch();
+                    }, 500);
+                });
+            }
 
             // forbid ios zoom
             window.onload=function () {
@@ -40,4 +39,4 @@
                 document.addEventListener('gesturestart', function (event) {
                   event.preventDefault();
                 });
-            }</script><script src=https://res2.wx.qq.com/open/js/jweixin-1.6.0.js></script><script src=https://cdn.bootcss.com/vConsole/3.3.4/vconsole.min.js></script></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div id=app></div><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/uni-ishop-default/dist/static/js/chunk-vendors.c5dfb547.js></script><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/uni-ishop-default/dist/static/js/index.3d3e86d6.js></script></body></html>
+            }</script><script src=https://res2.wx.qq.com/open/js/jweixin-1.6.0.js></script><script src=https://cdn.bootcss.com/vConsole/3.3.4/vconsole.min.js></script></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div id=app></div><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/uni-ishop-default/dist/static/js/chunk-vendors.91a72fb9.js></script><script src=https://cdn.jsdelivr.net/gh/starideas/xyfront/uniapp/uni-ishop-default/dist/static/js/index.f337e6ac.js></script></body></html>
