@@ -1,7 +1,7 @@
 tinymce.PluginManager.add('bdmap', function(editor, url) {
 	var pluginName='插入百度地图';
 	var baseURL=tinymce.baseURL;
-	var iframe1 = baseURL+'/plugins/bdmap/map.html';
+	var iframe1 = 'https://cdn.jsdelivr.net/gh/starideas/xyfront/libs/tinymce/plugins/bdmap/map.html';
 	var bdmap_width = function (editor) {
 		return editor.getParam('bdmap_width', 560);
     };
