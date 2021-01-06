@@ -22,7 +22,7 @@ tinymce.PluginManager.add('editor135', function(editor, url) {
             return;
         };
         editor.setContent(event.data); // 将135传递回来的内覆盖掉tinymce原来的内容
-        editor.close();
+        editor.windowManager.close();
     }, false);
     
     // 注册一个工具栏按钮名称
