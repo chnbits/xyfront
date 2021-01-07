@@ -1,7 +1,7 @@
 tinymce.PluginManager.add('bdmap', function(editor, url) {
 	var pluginName='插入百度地图';
 	var baseURL=tinymce.baseURL;
-	var iframe1 = 'https://cdn.jsdelivr.net/gh/starideas/xyfront/libs/tinymce/plugins/bdmap/map.html';
+	var iframe1 = 'http://uniweb.jiangruyi.com/gh/starideas/xyfront/libs/tinymce/plugins/bdmap/map.html';
 	var bdmap_width = function (editor) {
 		return editor.getParam('bdmap_width', 560);
     };
@@ -32,7 +32,7 @@ tinymce.PluginManager.add('bdmap', function(editor, url) {
 			onAction: function (api, details) {
 				switch (details.name) {
 					case 'save':
-						html='<iframe src="https://cdn.jsdelivr.net/gh/starideas/xyfront/libs/tinymce/plugins/bdmap/bd.html?center='+tinymceLng+'%2C'+tinymceLat+'&zoom=14&width='+(bdmap_width(editor)-2)+'&height='+(bdmap_height(editor)-2)+'" frameborder="0" style="width:'+bdmap_width(editor)+'px;height:'+bdmap_height(editor)+'px;">';
+						html='<iframe src="http://uniweb.jiangruyi.com/gh/starideas/xyfront/libs/tinymce/plugins/bdmap/bd.html?center='+tinymceLng+'%2C'+tinymceLat+'&zoom=14&width='+(bdmap_width(editor)-2)+'&height='+(bdmap_height(editor)-2)+'" frameborder="0" style="width:'+bdmap_width(editor)+'px;height:'+bdmap_height(editor)+'px;">';
 						editor.insertContent(html);
 						api.close();
 						break;
