@@ -151,7 +151,7 @@
             return(false);
         }
         $(function() {
-            let title = getQueryVariable('title');
+            let title = decodeURIComponent(getQueryVariable('title'));
             if (!title) {
                 title = '新年快乐';
             }
