@@ -133,7 +133,7 @@ h2 > span::after {
   content: '';
   position: absolute;
   display: block;
-  top: 40px;
+  top: 50px;
   width: 0%;
   height: 2px;
   background-color: #fbff00;
