@@ -10,13 +10,14 @@ tinymce.PluginManager.add('editor135', function(editor, url) {
 
     // 接收135传来的数据
     window.addEventListener('message', function (event) {
-        console.log('接收到来自135页面的数据');
+        if (event.origin !== 'https://www.135editor.com') {
+            return false;
+        }
         if (typeof event.data !== 'string') {
             if(event.data.ready) {
                 console.log('135加载完成');
                 // 获取135实例
                 var editor135 = document.querySelector("iframe[src='https://www.135editor.com/simple_editor.html?callback=true&appkey=']");
-                console.log('editor135', editor135) 
                 editor135.contentWindow.postMessage(editor.getContent(),'*');
             }
             return;
