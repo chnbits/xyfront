@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21b4f0be60a06b34ebe9",
+    "revision": "fa574ebb87f8fdc36bfe",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-otc-default/dist/css/app.d881986b.css"
   },
   {
@@ -96,12 +96,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-otc-default/dist/css/chunk-vendors.253823c3.css"
   },
   {
-    "revision": "be379a717335c5fad17af9712161603c",
+    "revision": "d175f9e1bd456bb0fb0ff6f595752388",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-otc-default/dist/index.html"
   },
   {
-    "revision": "21b4f0be60a06b34ebe9",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-otc-default/dist/js/app.1cb8b223.js"
+    "revision": "fa574ebb87f8fdc36bfe",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-otc-default/dist/js/app.eb355ed9.js"
   },
   {
     "revision": "80f099ce1d8e6ba97250",
