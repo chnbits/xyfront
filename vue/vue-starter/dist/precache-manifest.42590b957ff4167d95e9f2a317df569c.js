@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2ecc0490ba5eeadddcc",
+    "revision": "73c8700e9fb3c92480f4",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/app.42ce7cf6.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-4a94176e.4966eede.css"
   },
   {
-    "revision": "be4bf5d7b2d350cb1fa0",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-633e4954.b49314db.css"
+    "revision": "ff4fd49156e875acc0de",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-6193e5bc.dd13d133.css"
   },
   {
     "revision": "8fb5598611b472d32a75",
@@ -72,12 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-vendors.769d1df8.css"
   },
   {
-    "revision": "d2fd4b0cfdde7ad5acd7d583ce9c3a6e",
+    "revision": "b47a8160d661a9d2b9cdddd109d473ff",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/index.html"
   },
   {
-    "revision": "c2ecc0490ba5eeadddcc",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/app.3351cab1.js"
+    "revision": "73c8700e9fb3c92480f4",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/app.cef86910.js"
   },
   {
     "revision": "1a60c0fd08fd0e6fe115",
@@ -164,8 +164,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-5dcbc4e7.a285086a.js"
   },
   {
-    "revision": "be4bf5d7b2d350cb1fa0",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-633e4954.3e62795f.js"
+    "revision": "ff4fd49156e875acc0de",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-6193e5bc.8e33bcc3.js"
   },
   {
     "revision": "8fb5598611b472d32a75",
