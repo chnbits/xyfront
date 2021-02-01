@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4ab9931d6b8d2152bc1",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/app.1452bc28.css"
+    "revision": "99310db6b85231b7a69f",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/app.03c196dc.css"
   },
   {
     "revision": "1a60c0fd08fd0e6fe115",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-1170d9ce.d638d4eb.css"
   },
   {
-    "revision": "5a23de49c89532d8541b",
+    "revision": "8a390fc8514cff16f201",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-1c332014.7170232c.css"
   },
   {
@@ -84,12 +84,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-vendors.769d1df8.css"
   },
   {
-    "revision": "8a6ef87e1e9d082bdb385be3545043e0",
+    "revision": "7ba5c856b0c8efed29cd285568ac433f",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/index.html"
   },
   {
-    "revision": "a4ab9931d6b8d2152bc1",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/app.a3355649.js"
+    "revision": "99310db6b85231b7a69f",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/app.1b67c6a9.js"
   },
   {
     "revision": "1a60c0fd08fd0e6fe115",
@@ -108,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-1170d9ce.a467e040.js"
   },
   {
-    "revision": "5a23de49c89532d8541b",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-1c332014.cfdeed0c.js"
+    "revision": "8a390fc8514cff16f201",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-1c332014.a76ac685.js"
   },
   {
     "revision": "20ca99ec49e427cfd75d",
