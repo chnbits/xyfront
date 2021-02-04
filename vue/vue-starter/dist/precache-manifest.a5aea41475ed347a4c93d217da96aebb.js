@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0af28cc27ae5d8ded3b",
+    "revision": "6ea1bb63d8a0e474fe4d",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/app.b355727f.css"
   },
   {
@@ -68,20 +68,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-cd2d9022.abaee1cb.css"
   },
   {
-    "revision": "8eff7f2c5537c2d346e6",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-d9f4e33a.063bed65.css"
+    "revision": "8a6c9fa9426aea942492",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-f1a9a70c.51234abc.css"
   },
   {
     "revision": "1932ea1f74ff80eda3a3",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-vendors.769d1df8.css"
   },
   {
-    "revision": "5815759f0889ed740a69c27784ba1163",
+    "revision": "a862d733b03dfe634aa608094ed5ea3f",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/index.html"
   },
   {
-    "revision": "d0af28cc27ae5d8ded3b",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/app.607e8d99.js"
+    "revision": "6ea1bb63d8a0e474fe4d",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/app.96595c6e.js"
   },
   {
     "revision": "91ccced9e11c03df46df",
@@ -216,8 +216,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-cd2d9022.35eac8d2.js"
   },
   {
-    "revision": "8eff7f2c5537c2d346e6",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-d9f4e33a.196c0f3b.js"
+    "revision": "8a6c9fa9426aea942492",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-f1a9a70c.6e4072b0.js"
   },
   {
     "revision": "1b4dec481678d3cf8040",
