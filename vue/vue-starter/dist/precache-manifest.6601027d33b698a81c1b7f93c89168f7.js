@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "179bbdcdcbfdf37612ba",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/app.a68dae19.css"
+    "revision": "57abe667ed276813ac30",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/app.336d7f97.css"
   },
   {
     "revision": "3c2da4e2c2d54a278656",
@@ -104,11 +104,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/img/fontello.9354499c.svg"
   },
   {
-    "revision": "598574e16bd5d429cf7c0b89992cd75e",
+    "revision": "5de567532efcaef83b5f7823c2b21d38",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/index.html"
   },
   {
-    "revision": "179bbdcdcbfdf37612ba",
+    "revision": "57abe667ed276813ac30",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/app.7862f637.js"
   },
   {
