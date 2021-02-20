@@ -1,4 +1,4 @@
-importScripts("https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/precache-manifest.4eee8b8c2e1e3e2e574587a39cfdbe2e.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/precache-manifest.0e214c025aa4c9b2b5d7f2ef70e2e83e.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 /* eslint-disable no-console */
 
