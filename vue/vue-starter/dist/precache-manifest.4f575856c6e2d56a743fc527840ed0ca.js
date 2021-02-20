@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "130b1df1dc34e789f72b",
+    "revision": "b6c595dcaa282c40fa36",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/app.bc12362d.css"
   },
   {
@@ -32,16 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-544876bc.4832f67c.css"
   },
   {
+    "revision": "b1d59fcd260f9528ab98",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-5457edce.b1085fea.css"
+  },
+  {
     "revision": "0dcb6018267b0f337d9c",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-5c43a564.53929f86.css"
   },
   {
     "revision": "22f7606ed8caa49e1723",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-5e41358c.c0d7a998.css"
-  },
-  {
-    "revision": "741d0c27c58a00206bbe",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/css/chunk-5ed83409.4ad23b53.css"
   },
   {
     "revision": "c49561f1cbb29f88ab4b",
@@ -104,12 +104,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/img/fontello.9354499c.svg"
   },
   {
-    "revision": "7511a811102e51b066768dfa8b3a8375",
+    "revision": "52199c6cbb3dc2fed59623187a5d8e0c",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/index.html"
   },
   {
-    "revision": "130b1df1dc34e789f72b",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/app.84d70b09.js"
+    "revision": "b6c595dcaa282c40fa36",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/app.546c1ffe.js"
   },
   {
     "revision": "0b4a8880f1cd9864adf3",
@@ -184,6 +184,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-544876bc.0d1bd957.js"
   },
   {
+    "revision": "b1d59fcd260f9528ab98",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-5457edce.82ab2fd3.js"
+  },
+  {
     "revision": "6ba2aeff54a4b265c996",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-570bba33.64f43c7a.js"
   },
@@ -198,10 +202,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "22f7606ed8caa49e1723",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-5e41358c.5a2628e8.js"
-  },
-  {
-    "revision": "741d0c27c58a00206bbe",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-starter/dist/js/chunk-5ed83409.5b22f51b.js"
   },
   {
     "revision": "c49561f1cbb29f88ab4b",
