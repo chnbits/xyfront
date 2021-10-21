@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc28134614892f542c59",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/css/app.9268c003.css"
+    "revision": "c65ab3851bbe07e33ccb",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/css/app.fb1405c1.css"
   },
   {
-    "revision": "8e238be4f179d9fd847b",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/css/manifest.e6379bfa.css"
+    "revision": "73cd2463866d18065478",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/css/manifest.a151665e.css"
   },
   {
-    "revision": "ffc412185f277c02817e",
+    "revision": "7225b76ca72841e242a9",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/css/vendor.7e398865.css"
   },
   {
@@ -96,20 +96,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/img/身份证正面.2822ba48.png"
   },
   {
-    "revision": "d0aba64a00b5f8394324aa5bd7a956a6",
+    "revision": "cdf0d458dae7b6ff4cfde5d38dd1ef75",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/index.html"
   },
   {
-    "revision": "fc28134614892f542c59",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/app.2c06f1b6.js"
+    "revision": "c65ab3851bbe07e33ccb",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/app.f99dbfb4.js"
   },
   {
-    "revision": "8e238be4f179d9fd847b",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/manifest.01edae24.js"
+    "revision": "73cd2463866d18065478",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/manifest.9d2a815b.js"
   },
   {
-    "revision": "ffc412185f277c02817e",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/vendor.ebbb5627.js"
+    "revision": "7225b76ca72841e242a9",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/vendor.41f22d03.js"
   },
   {
     "revision": "eb0e6ac50f334d95e0e524dd0a81dd4b",
