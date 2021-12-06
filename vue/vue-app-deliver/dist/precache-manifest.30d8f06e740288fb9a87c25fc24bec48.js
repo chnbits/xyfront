@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf7780e1dc76ce411a69",
+    "revision": "ab2cbdbe58a95bc992f7",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/css/app.e77b6060.css"
   },
   {
-    "revision": "154d3dd2a45e27d299ff",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/css/manifest.71132481.css"
+    "revision": "b960b1280a1462713492",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/css/manifest.ed979c29.css"
   },
   {
-    "revision": "3a395e6a613186ed0d43",
+    "revision": "636954fa84899f9ff935",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/css/vendor.ced4e0ee.css"
   },
   {
@@ -96,20 +96,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/img/身份证正面.2822ba48.png"
   },
   {
-    "revision": "9d76df245060663ce9d842825b666bfd",
+    "revision": "257bcbc3c75603a1ded881f4ff96a079",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/index.html"
   },
   {
-    "revision": "cf7780e1dc76ce411a69",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/app.6280c51d.js"
+    "revision": "ab2cbdbe58a95bc992f7",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/app.07995cdb.js"
   },
   {
-    "revision": "154d3dd2a45e27d299ff",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/manifest.5fd40ab5.js"
+    "revision": "b960b1280a1462713492",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/manifest.6b48c857.js"
   },
   {
-    "revision": "3a395e6a613186ed0d43",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/vendor.46516707.js"
+    "revision": "636954fa84899f9ff935",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/vendor.4a399423.js"
   },
   {
     "revision": "eb0e6ac50f334d95e0e524dd0a81dd4b",
