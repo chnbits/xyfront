@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6db82e40d6e8290a4064",
+    "revision": "8125e2f4c60631e99353",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/css/app.e77b6060.css"
   },
   {
-    "revision": "2e24e31dc71994f34a64",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/css/manifest.07942854.css"
+    "revision": "14907ef407cf4990740f",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/css/manifest.f7e89e24.css"
   },
   {
     "revision": "636954fa84899f9ff935",
@@ -96,16 +96,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/img/身份证正面.2822ba48.png"
   },
   {
-    "revision": "f8ab2cbdcef6113b1c7d892b44605d10",
+    "revision": "90a265db782fe0924284aeccf4d645a2",
     "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/index.html"
   },
   {
-    "revision": "6db82e40d6e8290a4064",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/app.2645b4eb.js"
+    "revision": "8125e2f4c60631e99353",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/app.6ed6335e.js"
   },
   {
-    "revision": "2e24e31dc71994f34a64",
-    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/manifest.b405ec93.js"
+    "revision": "14907ef407cf4990740f",
+    "url": "https://cdn.jsdelivr.net/gh/starideas/xyfront/vue/vue-app-deliver/dist/js/manifest.fd6851da.js"
   },
   {
     "revision": "636954fa84899f9ff935",
