@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2edfd964953f43cc6073",
-    "url": "https://cdn.jiangruyi.com/vue/vue-sjhl/dist/css/app.f439802d.css"
+    "revision": "3506aee4897f025b2f7a",
+    "url": "https://cdn.jiangruyi.com/vue/vue-sjhl/dist/css/app.0cac6380.css"
   },
   {
     "revision": "440277e86fcb83380614",
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jiangruyi.com/vue/vue-sjhl/dist/fonts/VideoJS.46ac6629.eot"
   },
   {
-    "revision": "55bd213219578177115e8ac0d9016788",
+    "revision": "39b6429c0bf493a34cc97c8b713a69bf",
     "url": "https://cdn.jiangruyi.com/vue/vue-sjhl/dist/index.html"
   },
   {
-    "revision": "2edfd964953f43cc6073",
-    "url": "https://cdn.jiangruyi.com/vue/vue-sjhl/dist/js/app.b941a1c8.js"
+    "revision": "3506aee4897f025b2f7a",
+    "url": "https://cdn.jiangruyi.com/vue/vue-sjhl/dist/js/app.739808d0.js"
   },
   {
     "revision": "440277e86fcb83380614",
