@@ -76,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/img/身份证正面.2822ba48.png"
   },
   {
-    "revision": "8fad8eee94b0f3b1d7b02a320375bd69",
+    "revision": "984a382c95df87b98b6fd650b704f14e",
     "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/index.html"
   },
   {
