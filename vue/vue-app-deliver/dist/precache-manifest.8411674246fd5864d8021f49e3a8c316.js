@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "793ddb8bbcb41850ea34",
+    "revision": "40f598cc83673fcae900",
     "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/css/app.f7f99a22.css"
   },
   {
-    "revision": "ecafe04c011e11451c30",
-    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/css/manifest.d4411c3c.css"
+    "revision": "fb668c6ce9318964011e",
+    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/css/manifest.b75f6c2f.css"
   },
   {
     "revision": "85e4270af47ee65f7181",
@@ -76,16 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/img/身份证正面.2822ba48.png"
   },
   {
-    "revision": "4e45722147abdaf03e8062fb5235b011",
+    "revision": "aae04df6fc44483fe9d7b8d60b6e86f4",
     "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/index.html"
   },
   {
-    "revision": "793ddb8bbcb41850ea34",
-    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/js/app.322258cb.js"
+    "revision": "40f598cc83673fcae900",
+    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/js/app.ea41f60b.js"
   },
   {
-    "revision": "ecafe04c011e11451c30",
-    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/js/manifest.465c0c03.js"
+    "revision": "fb668c6ce9318964011e",
+    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/js/manifest.330e686a.js"
   },
   {
     "revision": "85e4270af47ee65f7181",
