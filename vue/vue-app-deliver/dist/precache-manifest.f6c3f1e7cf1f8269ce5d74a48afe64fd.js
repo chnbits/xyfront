@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce4b52edfd0fd591a566",
+    "revision": "2c0b5155bdcd267468e8",
     "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/css/app.f7f99a22.css"
   },
   {
-    "revision": "d023500a5d12147a7c37",
-    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/css/manifest.f3b11955.css"
+    "revision": "edbb5dfeb4b94391885d",
+    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/css/manifest.5c58caea.css"
   },
   {
-    "revision": "85e4270af47ee65f7181",
+    "revision": "5ca0b6a158f42ac45e75",
     "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/css/vendor.32ec3c4c.css"
   },
   {
@@ -76,27 +76,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/img/身份证正面.2822ba48.png"
   },
   {
-    "revision": "5872c0729d3ada431c5d0d366d4bd077",
+    "revision": "8827b06de0c580613b39c0e58d1ff1b1",
     "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/index.html"
   },
   {
-    "revision": "ce4b52edfd0fd591a566",
-    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/js/app.c93fa5de.js"
+    "revision": "2c0b5155bdcd267468e8",
+    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/js/app.00d7196f.js"
   },
   {
-    "revision": "d023500a5d12147a7c37",
-    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/js/manifest.c8b3dae7.js"
+    "revision": "edbb5dfeb4b94391885d",
+    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/js/manifest.6dcd5598.js"
   },
   {
-    "revision": "85e4270af47ee65f7181",
-    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/js/vendor.2230433d.js"
+    "revision": "5ca0b6a158f42ac45e75",
+    "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/js/vendor.d602850f.js"
   },
   {
     "revision": "eb0e6ac50f334d95e0e524dd0a81dd4b",
     "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/logo.png"
   },
   {
-    "revision": "49172f71afc6ed8c49ff7fcf0bed7225",
+    "revision": "8cd69d079e1073683c731ee94eb7d6ff",
     "url": "https://cdn.jiangruyi.com/vue/vue-app-deliver/dist/manifest.json"
   },
   {
