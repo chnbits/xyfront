@@ -1,13 +1,4 @@
 /*!
- * document.currentScript
- * Polyfill for `document.currentScript`.
- * Copyright (c) 2016 James M. Greene
- * Licensed MIT
- * https://github.com/JamesMGreene/document.currentScript
- * v1.1.0
- */
-
-/*!
  * vue-link2 v1.0.1 
  * (c) 2017 Willy
  * Released under the MIT License.
