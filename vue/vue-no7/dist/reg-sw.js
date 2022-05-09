@@ -1,4 +1,4 @@
-importScripts("https://cdn.jiangruyi.com/vue/vue-no7/dist/precache-manifest.da6ec0a246a3d7bec7933d99848e7664.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("https://cdn.jiangruyi.com/vue/vue-no7/dist/precache-manifest.d9f091fdab4eccf987358106e4cf60ce.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 /* eslint-disable no-console */
 
