@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6d132e4e972ed14d5aa",
-    "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/css/app.65b5775d.css"
+    "revision": "64eeef29ec490debd3e0",
+    "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/css/app.a5935e84.css"
   },
   {
-    "revision": "fcf90ec56eea7f516bb9",
-    "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/css/manifest.4d9c8808.css"
+    "revision": "e32aa7e0b48acb3dc768",
+    "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/css/manifest.06bb3ada.css"
   },
   {
     "revision": "9c41971b07e557d885d6",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/fonts/VideoJS.46ac6629.eot"
   },
   {
-    "revision": "fa7a42b4fa5ac82caaa014ea75f7c735",
+    "revision": "008930c1eb531f2cbf366852fb0534f4",
     "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/index.html"
   },
   {
-    "revision": "f6d132e4e972ed14d5aa",
-    "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/js/app.3dea3688.js"
+    "revision": "64eeef29ec490debd3e0",
+    "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/js/app.0951f573.js"
   },
   {
-    "revision": "fcf90ec56eea7f516bb9",
-    "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/js/manifest.c34ee168.js"
+    "revision": "e32aa7e0b48acb3dc768",
+    "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/js/manifest.47ac2713.js"
   },
   {
     "revision": "9c41971b07e557d885d6",
