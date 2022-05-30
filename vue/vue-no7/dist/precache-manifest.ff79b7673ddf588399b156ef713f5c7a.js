@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0da7582e7b829445c438",
-    "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/css/app.ea3e01c1.css"
+    "revision": "bbccd55afd94d7eb967b",
+    "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/css/app.b53523e0.css"
   },
   {
     "revision": "e32aa7e0b48acb3dc768",
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/fonts/VideoJS.46ac6629.eot"
   },
   {
-    "revision": "f4b979dc1ffce780e1c06cb9802568f4",
+    "revision": "ccebffb6e008fad6680dca3de07e8480",
     "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/index.html"
   },
   {
-    "revision": "0da7582e7b829445c438",
-    "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/js/app.1945f6f0.js"
+    "revision": "bbccd55afd94d7eb967b",
+    "url": "https://cdn.jiangruyi.com/vue/vue-no7/dist/js/app.c675807e.js"
   },
   {
     "revision": "e32aa7e0b48acb3dc768",
