@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title></title><link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/view-design/dist/styles/iview.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/element-ui@2.15.5/lib/theme-chalk/index.css"><script>// forbid ios zoom
+            window.onload=function () {
+                document.addEventListener('touchstart',function (event) {
+                  if(event.touches.length>1){
+                    event.preventDefault();
+                  }
+                });
+                var lastTouchEnd=0;
+                document.addEventListener('touchend',function (event) {
+                  var now=(new Date()).getTime();
+                  if(now-lastTouchEnd<=300){
+                    event.preventDefault();
+                  }
+                  lastTouchEnd=now;
+                },false);
+                document.addEventListener('gesturestart', function (event) {
+                  event.preventDefault();
+                });
+            }</script><style type="text/css" media="screen">#__vconsole .vc-panel {
+                min-height: 50%;
+            }</style><script src="https://cdn.jiangruyi.com/npm/@babel/polyfill/dist/polyfill.min.js"></script><link href="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/css/manifest.445dd99a.css" rel="prefetch"><link href="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/js/manifest.f5ba0687.js" rel="prefetch"><link href="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/css/app.f3e9a1b5.css" rel="preload" as="style"><link href="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/css/styles.98df3297.css" rel="preload" as="style"><link href="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/css/vendor.38100b23.css" rel="preload" as="style"><link href="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/js/app.4ce9f273.js" rel="preload" as="script"><link href="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/js/styles.8ec01807.js" rel="preload" as="script"><link href="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/js/vendor.79796de1.js" rel="preload" as="script"><link href="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/css/styles.98df3297.css" rel="stylesheet"><link href="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/css/vendor.38100b23.css" rel="stylesheet"><link href="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/css/app.f3e9a1b5.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but we doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><di id="xyadmin"><script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vue-router@3.3.4/dist/vue-router.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vuex@3.1.1/dist/vuex.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vue-i18n@8.14.1/dist/vue-i18n.min.js"></script><script src="https://cdn.jsdelivr.net/npm/element-ui@2.15.5/lib/index.js"></script><script src="https://cdn.jsdelivr.net/npm/view-design/dist/iview.min.js"></script><script src="https://cdn.jsdelivr.net/npm/less/dist/less.min.js"></script><script src="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/js/styles.8ec01807.js"></script><script src="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/js/vendor.79796de1.js"></script><script src="https://cdn.jiangruyi.com/xyadmin/1.1.0/dist/js/app.4ce9f273.js"></script></di></body></html>
