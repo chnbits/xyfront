@@ -1,1 +1,436 @@
-!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports,require("echarts")):"function"==typeof define&&define.amd?define(["exports","echarts"],t):t((e="undefined"!=typeof globalThis?globalThis:e||self).dataTool={},e.echarts)}(this,(function(e,t){"use strict";u(["Function","RegExp","Date","Error","CanvasGradient","CanvasPattern","Image","Canvas"],(function(e,t){return e["[object "+t+"]"]=!0,e}),{}),u(["Int8","Uint8","Uint8Clamped","Int16","Uint16","Int32","Uint32","Float32","Float64"],(function(e,t){return e["[object "+t+"Array]"]=!0,e}),{});var r=Array.prototype,n=r.slice,a=r.map,o=function(){}.constructor,i=o?o.prototype:null;function l(e,t,r){if(!e)return[];if(!t)return function(e){for(var t=[],r=1;r<arguments.length;r++)t[r-1]=arguments[r];return n.apply(e,t)}(e);if(e.map&&e.map===a)return e.map(t,r);for(var o=[],i=0,l=e.length;i<l;i++)o.push(t.call(r,e[i],i,e));return o}function u(e,t,r,n){if(e&&t){for(var a=0,o=e.length;a<o;a++)r=t.call(n,r,e[a],a,e);return r}}i&&"function"==typeof i.bind&&i.call.bind(i.bind);function s(e,t){return e?l(d(e,"node"),(function(e){var r={id:c(e,"id"),name:c(e,"label"),itemStyle:{normal:{}}},n=p(e,"viz:size"),a=p(e,"viz:position"),o=p(e,"viz:color"),i=p(e,"attvalues");if(n&&(r.symbolSize=parseFloat(c(n,"value"))),a&&(r.x=parseFloat(c(a,"x")),r.y=parseFloat(c(a,"y"))),o&&(r.itemStyle.normal.color="rgb("+[0|c(o,"r"),0|c(o,"g"),0|c(o,"b")].join(",")+")"),i){var l=d(i,"attvalue");r.attributes={};for(var u=0;u<l.length;u++){var s=l[u],f=c(s,"for"),v=c(s,"value"),g=t[f];if(g){switch(g.type){case"integer":case"long":v=parseInt(v,10);break;case"float":case"double":v=parseFloat(v);break;case"boolean":v="true"===v.toLowerCase()}r.attributes[f]=v}}}return r})):[]}function f(e){return e?l(d(e,"edge"),(function(e){var t={id:c(e,"id"),name:c(e,"label"),source:c(e,"source"),target:c(e,"target"),lineStyle:{normal:{}}},r=t.lineStyle.normal,n=p(e,"viz:thickness"),a=p(e,"viz:color");return n&&(r.width=parseFloat(n.getAttribute("value"))),a&&(r.color="rgb("+[0|c(a,"r"),0|c(a,"g"),0|c(a,"b")].join(",")+")"),t})):[]}function c(e,t){return e.getAttribute(t)}function p(e,t){for(var r=e.firstChild;r;){if(1===r.nodeType&&r.nodeName.toLowerCase()===t.toLowerCase())return r;r=r.nextSibling}return null}function d(e,t){for(var r=e.firstChild,n=[];r;)r.nodeName.toLowerCase()===t.toLowerCase()&&n.push(r),r=r.nextSibling;return n}var v=Object.freeze({__proto__:null,parse:function(e){var t;if(!(t="string"==typeof e?(new DOMParser).parseFromString(e,"text/xml"):e)||t.getElementsByTagName("parsererror").length)return null;var r=p(t,"gexf");if(!r)return null;for(var n,a=p(r,"graph"),o=(n=p(a,"attributes"))?l(d(n,"attribute"),(function(e){return{id:c(e,"id"),title:c(e,"title"),type:c(e,"type")}})):[],i={},u=0;u<o.length;u++)i[o[u].id]=o[u];return{nodes:s(p(a,"nodes"),i),links:f(p(a,"edges"))}}});function g(e,t){var r=(e.length-1)*t+1,n=Math.floor(r),a=+e[n-1],o=r-n;return o?a+o*(e[n]-a):a}function b(e,t){for(var r,n=[],a=[],o=[],i=(t=t||{}).boundIQR,l="none"===i||0===i,u=0;u<e.length;u++){o.push(u+"");var s=((r=e[u].slice()).sort((function(e,t){return e-t})),r),f=g(s,.25),c=g(s,.5),p=g(s,.75),d=s[0],v=s[s.length-1],b=(null==i?1.5:i)*(p-f),h=l?d:Math.max(d,f-b),m=l?v:Math.min(v,p+b);n.push([h,f,c,p,m]);for(var y=0;y<s.length;y++){var x=s[y];if(x<h||x>m){var C=[u,x];"vertical"===t.layout&&C.reverse(),a.push(C)}}}return{boxData:n,outliers:a,axisData:o}}var h="1.0.0";t.dataTool&&(t.dataTool.version=h,t.dataTool.gexf=v,t.dataTool.prepareBoxplotData=b),e.gexf=v,e.prepareBoxplotData=b,e.version=h,Object.defineProperty(e,"__esModule",{value:!0})}));
+
+/*
+* Licensed to the Apache Software Foundation (ASF) under one
+* or more contributor license agreements.  See the NOTICE file
+* distributed with this work for additional information
+* regarding copyright ownership.  The ASF licenses this file
+* to you under the Apache License, Version 2.0 (the
+* "License"); you may not use this file except in compliance
+* with the License.  You may obtain a copy of the License at
+*
+*   http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing,
+* software distributed under the License is distributed on an
+* "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+* KIND, either express or implied.  See the License for the
+* specific language governing permissions and limitations
+* under the License.
+*/
+
+(function (global, factory) {
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('echarts')) :
+    typeof define === 'function' && define.amd ? define(['exports', 'echarts'], factory) :
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.dataTool = {}, global.echarts));
+}(this, (function (exports, echarts) { 'use strict';
+
+    var BUILTIN_OBJECT = reduce([
+        'Function',
+        'RegExp',
+        'Date',
+        'Error',
+        'CanvasGradient',
+        'CanvasPattern',
+        'Image',
+        'Canvas'
+    ], function (obj, val) {
+        obj['[object ' + val + ']'] = true;
+        return obj;
+    }, {});
+    var TYPED_ARRAY = reduce([
+        'Int8',
+        'Uint8',
+        'Uint8Clamped',
+        'Int16',
+        'Uint16',
+        'Int32',
+        'Uint32',
+        'Float32',
+        'Float64'
+    ], function (obj, val) {
+        obj['[object ' + val + 'Array]'] = true;
+        return obj;
+    }, {});
+    var arrayProto = Array.prototype;
+    var nativeSlice = arrayProto.slice;
+    var nativeMap = arrayProto.map;
+    var ctorFunction = function () { }.constructor;
+    var protoFunction = ctorFunction ? ctorFunction.prototype : null;
+    function map(arr, cb, context) {
+        if (!arr) {
+            return [];
+        }
+        if (!cb) {
+            return slice(arr);
+        }
+        if (arr.map && arr.map === nativeMap) {
+            return arr.map(cb, context);
+        }
+        else {
+            var result = [];
+            for (var i = 0, len = arr.length; i < len; i++) {
+                result.push(cb.call(context, arr[i], i, arr));
+            }
+            return result;
+        }
+    }
+    function reduce(arr, cb, memo, context) {
+        if (!(arr && cb)) {
+            return;
+        }
+        for (var i = 0, len = arr.length; i < len; i++) {
+            memo = cb.call(context, memo, arr[i], i, arr);
+        }
+        return memo;
+    }
+    function bindPolyfill(func, context) {
+        var args = [];
+        for (var _i = 2; _i < arguments.length; _i++) {
+            args[_i - 2] = arguments[_i];
+        }
+        return function () {
+            return func.apply(context, args.concat(nativeSlice.call(arguments)));
+        };
+    }
+    var bind = (protoFunction && isFunction(protoFunction.bind))
+        ? protoFunction.call.bind(protoFunction.bind)
+        : bindPolyfill;
+    function isFunction(value) {
+        return typeof value === 'function';
+    }
+    function slice(arr) {
+        var args = [];
+        for (var _i = 1; _i < arguments.length; _i++) {
+            args[_i - 1] = arguments[_i];
+        }
+        return nativeSlice.apply(arr, args);
+    }
+
+    function parse(xml) {
+      var doc;
+
+      if (typeof xml === 'string') {
+        var parser = new DOMParser();
+        doc = parser.parseFromString(xml, 'text/xml');
+      } else {
+        doc = xml;
+      }
+
+      if (!doc || doc.getElementsByTagName('parsererror').length) {
+        return null;
+      }
+
+      var gexfRoot = getChildByTagName(doc, 'gexf');
+
+      if (!gexfRoot) {
+        return null;
+      }
+
+      var graphRoot = getChildByTagName(gexfRoot, 'graph');
+      var attributes = parseAttributes(getChildByTagName(graphRoot, 'attributes'));
+      var attributesMap = {};
+
+      for (var i = 0; i < attributes.length; i++) {
+        attributesMap[attributes[i].id] = attributes[i];
+      }
+
+      return {
+        nodes: parseNodes(getChildByTagName(graphRoot, 'nodes'), attributesMap),
+        links: parseEdges(getChildByTagName(graphRoot, 'edges'))
+      };
+    }
+
+    function parseAttributes(parent) {
+      return parent ? map(getChildrenByTagName(parent, 'attribute'), function (attribDom) {
+        return {
+          id: getAttr(attribDom, 'id'),
+          title: getAttr(attribDom, 'title'),
+          type: getAttr(attribDom, 'type')
+        };
+      }) : [];
+    }
+
+    function parseNodes(parent, attributesMap) {
+      return parent ? map(getChildrenByTagName(parent, 'node'), function (nodeDom) {
+        var id = getAttr(nodeDom, 'id');
+        var label = getAttr(nodeDom, 'label');
+        var node = {
+          id: id,
+          name: label,
+          itemStyle: {
+            normal: {}
+          }
+        };
+        var vizSizeDom = getChildByTagName(nodeDom, 'viz:size');
+        var vizPosDom = getChildByTagName(nodeDom, 'viz:position');
+        var vizColorDom = getChildByTagName(nodeDom, 'viz:color'); // let vizShapeDom = getChildByTagName(nodeDom, 'viz:shape');
+
+        var attvaluesDom = getChildByTagName(nodeDom, 'attvalues');
+
+        if (vizSizeDom) {
+          node.symbolSize = parseFloat(getAttr(vizSizeDom, 'value'));
+        }
+
+        if (vizPosDom) {
+          node.x = parseFloat(getAttr(vizPosDom, 'x'));
+          node.y = parseFloat(getAttr(vizPosDom, 'y')); // z
+        }
+
+        if (vizColorDom) {
+          node.itemStyle.normal.color = 'rgb(' + [getAttr(vizColorDom, 'r') | 0, getAttr(vizColorDom, 'g') | 0, getAttr(vizColorDom, 'b') | 0].join(',') + ')';
+        } // if (vizShapeDom) {
+        // node.shape = getAttr(vizShapeDom, 'shape');
+        // }
+
+
+        if (attvaluesDom) {
+          var attvalueDomList = getChildrenByTagName(attvaluesDom, 'attvalue');
+          node.attributes = {};
+
+          for (var j = 0; j < attvalueDomList.length; j++) {
+            var attvalueDom = attvalueDomList[j];
+            var attId = getAttr(attvalueDom, 'for');
+            var attValue = getAttr(attvalueDom, 'value');
+            var attribute = attributesMap[attId];
+
+            if (attribute) {
+              switch (attribute.type) {
+                case 'integer':
+                case 'long':
+                  attValue = parseInt(attValue, 10);
+                  break;
+
+                case 'float':
+                case 'double':
+                  attValue = parseFloat(attValue);
+                  break;
+
+                case 'boolean':
+                  attValue = attValue.toLowerCase() === 'true';
+                  break;
+              }
+
+              node.attributes[attId] = attValue;
+            }
+          }
+        }
+
+        return node;
+      }) : [];
+    }
+
+    function parseEdges(parent) {
+      return parent ? map(getChildrenByTagName(parent, 'edge'), function (edgeDom) {
+        var id = getAttr(edgeDom, 'id');
+        var label = getAttr(edgeDom, 'label');
+        var sourceId = getAttr(edgeDom, 'source');
+        var targetId = getAttr(edgeDom, 'target');
+        var edge = {
+          id: id,
+          name: label,
+          source: sourceId,
+          target: targetId,
+          lineStyle: {
+            normal: {}
+          }
+        };
+        var lineStyle = edge.lineStyle.normal;
+        var vizThicknessDom = getChildByTagName(edgeDom, 'viz:thickness');
+        var vizColorDom = getChildByTagName(edgeDom, 'viz:color'); // let vizShapeDom = getChildByTagName(edgeDom, 'viz:shape');
+
+        if (vizThicknessDom) {
+          lineStyle.width = parseFloat(vizThicknessDom.getAttribute('value'));
+        }
+
+        if (vizColorDom) {
+          lineStyle.color = 'rgb(' + [getAttr(vizColorDom, 'r') | 0, getAttr(vizColorDom, 'g') | 0, getAttr(vizColorDom, 'b') | 0].join(',') + ')';
+        } // if (vizShapeDom) {
+        //     edge.shape = vizShapeDom.getAttribute('shape');
+        // }
+
+
+        return edge;
+      }) : [];
+    }
+
+    function getAttr(el, attrName) {
+      return el.getAttribute(attrName);
+    }
+
+    function getChildByTagName(parent, tagName) {
+      var node = parent.firstChild;
+
+      while (node) {
+        if (node.nodeType !== 1 || node.nodeName.toLowerCase() !== tagName.toLowerCase()) {
+          node = node.nextSibling;
+        } else {
+          return node;
+        }
+      }
+
+      return null;
+    }
+
+    function getChildrenByTagName(parent, tagName) {
+      var node = parent.firstChild;
+      var children = [];
+
+      while (node) {
+        if (node.nodeName.toLowerCase() === tagName.toLowerCase()) {
+          children.push(node);
+        }
+
+        node = node.nextSibling;
+      }
+
+      return children;
+    }
+
+    var gexf = /*#__PURE__*/Object.freeze({
+        __proto__: null,
+        parse: parse
+    });
+
+    /*
+    * Licensed to the Apache Software Foundation (ASF) under one
+    * or more contributor license agreements.  See the NOTICE file
+    * distributed with this work for additional information
+    * regarding copyright ownership.  The ASF licenses this file
+    * to you under the Apache License, Version 2.0 (the
+    * "License"); you may not use this file except in compliance
+    * with the License.  You may obtain a copy of the License at
+    *
+    *   http://www.apache.org/licenses/LICENSE-2.0
+    *
+    * Unless required by applicable law or agreed to in writing,
+    * software distributed under the License is distributed on an
+    * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    * KIND, either express or implied.  See the License for the
+    * specific language governing permissions and limitations
+    * under the License.
+    */
+
+
+    /**
+     * AUTO-GENERATED FILE. DO NOT MODIFY.
+     */
+
+    /*
+    * Licensed to the Apache Software Foundation (ASF) under one
+    * or more contributor license agreements.  See the NOTICE file
+    * distributed with this work for additional information
+    * regarding copyright ownership.  The ASF licenses this file
+    * to you under the Apache License, Version 2.0 (the
+    * "License"); you may not use this file except in compliance
+    * with the License.  You may obtain a copy of the License at
+    *
+    *   http://www.apache.org/licenses/LICENSE-2.0
+    *
+    * Unless required by applicable law or agreed to in writing,
+    * software distributed under the License is distributed on an
+    * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    * KIND, either express or implied.  See the License for the
+    * specific language governing permissions and limitations
+    * under the License.
+    */
+    function asc(arr) {
+      arr.sort(function (a, b) {
+        return a - b;
+      });
+      return arr;
+    }
+
+    function quantile(ascArr, p) {
+      var H = (ascArr.length - 1) * p + 1;
+      var h = Math.floor(H);
+      var v = +ascArr[h - 1];
+      var e = H - h;
+      return e ? v + e * (ascArr[h] - v) : v;
+    }
+    /**
+     * See:
+     *  <https://en.wikipedia.org/wiki/Box_plot#cite_note-frigge_hoaglin_iglewicz-2>
+     *  <http://stat.ethz.ch/R-manual/R-devel/library/grDevices/html/boxplot.stats.html>
+     *
+     * Helper method for preparing data.
+     *
+     * @param {Array.<number>} rawData like
+     *        [
+     *            [12,232,443], (raw data set for the first box)
+     *            [3843,5545,1232], (raw data set for the second box)
+     *            ...
+     *        ]
+     * @param {Object} [opt]
+     *
+     * @param {(number|string)} [opt.boundIQR=1.5] Data less than min bound is outlier.
+     *      default 1.5, means Q1 - 1.5 * (Q3 - Q1).
+     *      If 'none'/0 passed, min bound will not be used.
+     * @param {(number|string)} [opt.layout='horizontal']
+     *      Box plot layout, can be 'horizontal' or 'vertical'
+     * @return {Object} {
+     *      boxData: Array.<Array.<number>>
+     *      outliers: Array.<Array.<number>>
+     *      axisData: Array.<string>
+     * }
+     */
+
+
+    function prepareBoxplotData (rawData, opt) {
+      opt = opt || {};
+      var boxData = [];
+      var outliers = [];
+      var axisData = [];
+      var boundIQR = opt.boundIQR;
+      var useExtreme = boundIQR === 'none' || boundIQR === 0;
+
+      for (var i = 0; i < rawData.length; i++) {
+        axisData.push(i + '');
+        var ascList = asc(rawData[i].slice());
+        var Q1 = quantile(ascList, 0.25);
+        var Q2 = quantile(ascList, 0.5);
+        var Q3 = quantile(ascList, 0.75);
+        var min = ascList[0];
+        var max = ascList[ascList.length - 1];
+        var bound = (boundIQR == null ? 1.5 : boundIQR) * (Q3 - Q1);
+        var low = useExtreme ? min : Math.max(min, Q1 - bound);
+        var high = useExtreme ? max : Math.min(max, Q3 + bound);
+        boxData.push([low, Q1, Q2, Q3, high]);
+
+        for (var j = 0; j < ascList.length; j++) {
+          var dataItem = ascList[j];
+
+          if (dataItem < low || dataItem > high) {
+            var outlier = [i, dataItem];
+            opt.layout === 'vertical' && outlier.reverse();
+            outliers.push(outlier);
+          }
+        }
+      }
+
+      return {
+        boxData: boxData,
+        outliers: outliers,
+        axisData: axisData
+      };
+    }
+
+    var version = '1.0.0';
+    // For backward compatibility, where the namespace `dataTool` will
+    // be mounted on `echarts` is the extension `dataTool` is imported.
+    // But the old version of echarts do not have `dataTool` namespace,
+    // so check it before mounting.
+
+    if (echarts.dataTool) {
+      echarts.dataTool.version = version;
+      echarts.dataTool.gexf = gexf;
+      echarts.dataTool.prepareBoxplotData = prepareBoxplotData; // echarts.dataTool.boxplotTransform = boxplotTransform;
+    }
+
+    exports.gexf = gexf;
+    exports.prepareBoxplotData = prepareBoxplotData;
+    exports.version = version;
+
+    Object.defineProperty(exports, '__esModule', { value: true });
+
+})));
+//# sourceMappingURL=dataTool.js.map
