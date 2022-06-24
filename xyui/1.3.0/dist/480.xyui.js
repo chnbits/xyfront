@@ -1,0 +1,1 @@
+(Object("undefined"!=typeof self?self:this).webpackChunkxyui=Object("undefined"!=typeof self?self:this).webpackChunkxyui||[]).push([[480],{2480:function(){}}]);
