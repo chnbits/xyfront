@@ -1,1 +1,0 @@
-"use strict";(Object("undefined"!=typeof self?self:this).webpackChunkxyui=Object("undefined"!=typeof self?self:this).webpackChunkxyui||[]).push([[2],{4002:(e,s,f)=>{f.r(s)}}]);
