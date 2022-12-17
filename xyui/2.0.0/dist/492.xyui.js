@@ -1,0 +1,1 @@
+"use strict";(Object("undefined"!=typeof self?self:this).webpackChunkxyui=Object("undefined"!=typeof self?self:this).webpackChunkxyui||[]).push([[492],{3492:function(e,f,t){t.r(f),f.default=t.p+"imgs/default.jpg"}}]);
